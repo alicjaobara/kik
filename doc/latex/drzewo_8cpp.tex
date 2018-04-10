@@ -1,0 +1,167 @@
+\hypertarget{drzewo_8cpp}{}\section{Dokumentacja pliku drzewo.\+cpp}
+\label{drzewo_8cpp}\index{drzewo.\+cpp@{drzewo.\+cpp}}
+
+
+Plik źródłowy modułu drzewo.  
+
+
+{\ttfamily \#include \char`\"{}drzewo.\+h\char`\"{}}\\*
+Wykres zależności załączania dla drzewo.\+cpp\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{drzewo_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{Funkcje}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{drzewo_8cpp_a8d34288192893c796076ba13c759685a}{t\+\_\+drzewo} (\hyperlink{structwezel}{wezel} $\ast$pop, int poziom, char znakk)
+\begin{DoxyCompactList}\small\item\em Rekurencyjne tworzenie drzewa. \end{DoxyCompactList}\item 
+void \hyperlink{drzewo_8cpp_a1dbe44033e123ea16882bb48f91b9bc3}{usun\+\_\+bok} (\hyperlink{structwsk}{wsk} $\ast$\&n)
+\begin{DoxyCompactList}\small\item\em Usuwanie listy w drzewie. \end{DoxyCompactList}\item 
+void \hyperlink{drzewo_8cpp_ad4d63b25f7d0462a217e05cf2da8849f}{usun\+\_\+drzewo} (\hyperlink{structwezel}{wezel} $\ast$\&kor)
+\begin{DoxyCompactList}\small\item\em Usuwanie drzewa. \end{DoxyCompactList}\item 
+\hyperlink{structwezel}{wezel} $\ast$ \hyperlink{drzewo_8cpp_a90322c22721610cd4c5a812fcdd0427c}{drzewo} (char T\mbox{[}3\mbox{]}\mbox{[}3\mbox{]}, char znakk)
+\begin{DoxyCompactList}\small\item\em Nowe drzewo. \end{DoxyCompactList}\item 
+void \hyperlink{drzewo_8cpp_aee17db8f1899626ab6f4ca2b010d3569}{przepisz} (char T\mbox{[}3\mbox{]}\mbox{[}3\mbox{]}, char P\mbox{[}3\mbox{]}\mbox{[}3\mbox{]})
+\begin{DoxyCompactList}\small\item\em Przepisywanie tablicy. \end{DoxyCompactList}\item 
+void \hyperlink{drzewo_8cpp_a025cadf1c2c5401689aa77bc194057a5}{lepsze} (\hyperlink{structwezel}{wezel} $\ast$pop)
+\begin{DoxyCompactList}\small\item\em Ulepszenie drzewa. \end{DoxyCompactList}\item 
+void \hyperlink{drzewo_8cpp_a029b2288db51eebfd1282e2f9323086c}{sprawdz\+\_\+poziom} (\hyperlink{structwezel}{wezel} $\ast$pop)
+\begin{DoxyCompactList}\small\item\em Usuwanie ruchów. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Opis szczegółowy}
+Plik źródłowy modułu drzewo. 
+
+
+
+\subsection{Dokumentacja funkcji}
+\index{drzewo.\+cpp@{drzewo.\+cpp}!drzewo@{drzewo}}
+\index{drzewo@{drzewo}!drzewo.\+cpp@{drzewo.\+cpp}}
+\subsubsection[{\texorpdfstring{drzewo(char T[3][3], char znakk)}{drzewo(char T[3][3], char znakk)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf wezel}$\ast$ drzewo (
+\begin{DoxyParamCaption}
+\item[{char}]{T\mbox{[}3\mbox{]}\mbox{[}3\mbox{]}, }
+\item[{char}]{znakk}
+\end{DoxyParamCaption}
+)}\hypertarget{drzewo_8cpp_a90322c22721610cd4c5a812fcdd0427c}{}\label{drzewo_8cpp_a90322c22721610cd4c5a812fcdd0427c}
+
+
+Nowe drzewo. 
+
+Funkcja tworząca nowe drzewo wszystkich możliwych ruchów. 
+\begin{DoxyParams}{Parametry}
+{\em T} & aktualna plansza \\
+\hline
+{\em znakk} & znak którym gra komputer \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+korzeń nowego drzewa 
+\end{DoxyReturn}
+\index{drzewo.\+cpp@{drzewo.\+cpp}!lepsze@{lepsze}}
+\index{lepsze@{lepsze}!drzewo.\+cpp@{drzewo.\+cpp}}
+\subsubsection[{\texorpdfstring{lepsze(wezel $\ast$pop)}{lepsze(wezel *pop)}}]{\setlength{\rightskip}{0pt plus 5cm}void lepsze (
+\begin{DoxyParamCaption}
+\item[{{\bf wezel} $\ast$}]{pop}
+\end{DoxyParamCaption}
+)}\hypertarget{drzewo_8cpp_a025cadf1c2c5401689aa77bc194057a5}{}\label{drzewo_8cpp_a025cadf1c2c5401689aa77bc194057a5}
+
+
+Ulepszenie drzewa. 
+
+Procedura usuwająca inne ruchy możliwe dla gracza jeżeli ma możilwy ruch wygrywający. Procedura rekurencyjna. 
+\begin{DoxyParams}{Parametry}
+{\em pop} & poprzedni element drzewa w funkcji rejkurencyjnej \\
+\hline
+\end{DoxyParams}
+\index{drzewo.\+cpp@{drzewo.\+cpp}!przepisz@{przepisz}}
+\index{przepisz@{przepisz}!drzewo.\+cpp@{drzewo.\+cpp}}
+\subsubsection[{\texorpdfstring{przepisz(char T[3][3], char P[3][3])}{przepisz(char T[3][3], char P[3][3])}}]{\setlength{\rightskip}{0pt plus 5cm}void przepisz (
+\begin{DoxyParamCaption}
+\item[{char}]{T\mbox{[}3\mbox{]}\mbox{[}3\mbox{]}, }
+\item[{char}]{P\mbox{[}3\mbox{]}\mbox{[}3\mbox{]}}
+\end{DoxyParamCaption}
+)}\hypertarget{drzewo_8cpp_aee17db8f1899626ab6f4ca2b010d3569}{}\label{drzewo_8cpp_aee17db8f1899626ab6f4ca2b010d3569}
+
+
+Przepisywanie tablicy. 
+
+Procedura przepisująca elementy z jednej tablicy do drugiej. 
+\begin{DoxyParams}{Parametry}
+{\em T} & tablica do której przepisujemy elementy \\
+\hline
+{\em P} & tablica z której przepisujemy elementy \\
+\hline
+\end{DoxyParams}
+\index{drzewo.\+cpp@{drzewo.\+cpp}!sprawdz\+\_\+poziom@{sprawdz\+\_\+poziom}}
+\index{sprawdz\+\_\+poziom@{sprawdz\+\_\+poziom}!drzewo.\+cpp@{drzewo.\+cpp}}
+\subsubsection[{\texorpdfstring{sprawdz\+\_\+poziom(wezel $\ast$pop)}{sprawdz_poziom(wezel *pop)}}]{\setlength{\rightskip}{0pt plus 5cm}void sprawdz\+\_\+poziom (
+\begin{DoxyParamCaption}
+\item[{{\bf wezel} $\ast$}]{pop}
+\end{DoxyParamCaption}
+)}\hypertarget{drzewo_8cpp_a029b2288db51eebfd1282e2f9323086c}{}\label{drzewo_8cpp_a029b2288db51eebfd1282e2f9323086c}
+
+
+Usuwanie ruchów. 
+
+Procedura usuwająca inne możliwe ruchy gracza, gdy istnieje jego ruch wygrywający w danym poziomie drzewa. 
+\begin{DoxyParams}{Parametry}
+{\em pop} & element drzewa \\
+\hline
+\end{DoxyParams}
+\index{drzewo.\+cpp@{drzewo.\+cpp}!t\+\_\+drzewo@{t\+\_\+drzewo}}
+\index{t\+\_\+drzewo@{t\+\_\+drzewo}!drzewo.\+cpp@{drzewo.\+cpp}}
+\subsubsection[{\texorpdfstring{t\+\_\+drzewo(wezel $\ast$pop, int poziom, char znakk)}{t_drzewo(wezel *pop, int poziom, char znakk)}}]{\setlength{\rightskip}{0pt plus 5cm}void t\+\_\+drzewo (
+\begin{DoxyParamCaption}
+\item[{{\bf wezel} $\ast$}]{pop, }
+\item[{int}]{poziom, }
+\item[{char}]{znakk}
+\end{DoxyParamCaption}
+)}\hypertarget{drzewo_8cpp_a8d34288192893c796076ba13c759685a}{}\label{drzewo_8cpp_a8d34288192893c796076ba13c759685a}
+
+
+Rekurencyjne tworzenie drzewa. 
+
+Procedura rekurencyjna do tworzenia drzewa. 
+\begin{DoxyParams}{Parametry}
+{\em pop} & wskaźnik poprzedniego elementu \\
+\hline
+{\em poziom} & ilość początkowych możliwych ruchów \\
+\hline
+{\em znakk} & znak którym gra komputer \\
+\hline
+\end{DoxyParams}
+\index{drzewo.\+cpp@{drzewo.\+cpp}!usun\+\_\+bok@{usun\+\_\+bok}}
+\index{usun\+\_\+bok@{usun\+\_\+bok}!drzewo.\+cpp@{drzewo.\+cpp}}
+\subsubsection[{\texorpdfstring{usun\+\_\+bok(wsk $\ast$\&n)}{usun_bok(wsk *&n)}}]{\setlength{\rightskip}{0pt plus 5cm}void usun\+\_\+bok (
+\begin{DoxyParamCaption}
+\item[{{\bf wsk} $\ast$\&}]{n}
+\end{DoxyParamCaption}
+)}\hypertarget{drzewo_8cpp_a1dbe44033e123ea16882bb48f91b9bc3}{}\label{drzewo_8cpp_a1dbe44033e123ea16882bb48f91b9bc3}
+
+
+Usuwanie listy w drzewie. 
+
+Procedura pomocnicza przy usuwaniu drzewa, usuwająca listy dynamiczne zawarte w drzewie. 
+\begin{DoxyParams}{Parametry}
+{\em n} & wskaźnik na pierwszy element listy \\
+\hline
+\end{DoxyParams}
+\index{drzewo.\+cpp@{drzewo.\+cpp}!usun\+\_\+drzewo@{usun\+\_\+drzewo}}
+\index{usun\+\_\+drzewo@{usun\+\_\+drzewo}!drzewo.\+cpp@{drzewo.\+cpp}}
+\subsubsection[{\texorpdfstring{usun\+\_\+drzewo(wezel $\ast$\&kor)}{usun_drzewo(wezel *&kor)}}]{\setlength{\rightskip}{0pt plus 5cm}void usun\+\_\+drzewo (
+\begin{DoxyParamCaption}
+\item[{{\bf wezel} $\ast$\&}]{kor}
+\end{DoxyParamCaption}
+)}\hypertarget{drzewo_8cpp_ad4d63b25f7d0462a217e05cf2da8849f}{}\label{drzewo_8cpp_ad4d63b25f7d0462a217e05cf2da8849f}
+
+
+Usuwanie drzewa. 
+
+Procedura usuwająca drzewo. 
+\begin{DoxyParams}{Parametry}
+{\em kor} & korzeń drzewa \\
+\hline
+\end{DoxyParams}

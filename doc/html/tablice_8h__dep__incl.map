@@ -1,0 +1,10 @@
+<map id="tablice.h" name="tablice.h">
+<area shape="rect" id="node2" href="$gra_8h.html" title="Plik nagłówkowy modułu gra. " alt="" coords="149,80,199,107"/>
+<area shape="rect" id="node9" href="$tablice_8cpp.html" title="Plik źródłowy modułu tablice. " alt="" coords="223,80,309,107"/>
+<area shape="rect" id="node3" href="$drzewo_8h.html" title="Plik nagłówkowy modułu drzewo. " alt="" coords="270,155,345,181"/>
+<area shape="rect" id="node5" href="$interfejs_8h.html" title="Plik nagłówkowy modułu interfejs. " alt="" coords="77,155,156,181"/>
+<area shape="rect" id="node8" href="$gra_8cpp.html" title="Plik źródłowy modułu gra. " alt="" coords="180,155,245,181"/>
+<area shape="rect" id="node4" href="$drzewo_8cpp.html" title="Plik źródłowy modułu drzewo. " alt="" coords="263,229,351,256"/>
+<area shape="rect" id="node6" href="$interfejs_8cpp.html" title="Plik źródłowy modułu interfejs. " alt="" coords="5,229,97,256"/>
+<area shape="rect" id="node7" href="$main_8cpp.html" title="Plik źródłowy główny. " alt="" coords="122,229,197,256"/>
+</map>

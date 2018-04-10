@@ -1,0 +1,90 @@
+\hypertarget{structwezel}{}\section{Dokumentacja struktury wezel}
+\label{structwezel}\index{wezel@{wezel}}
+
+
+Element drzewa dynamicznego.  
+
+
+
+
+{\ttfamily \#include $<$drzewo.\+h$>$}
+
+
+
+Diagram współpracy dla wezel\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=145pt]{structwezel__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Atrybuty publiczne}
+\begin{DoxyCompactItemize}
+\item 
+char \hyperlink{structwezel_af8b190ce1c018baaf3d6b29c8b1703ca}{P} \mbox{[}3\mbox{]}\mbox{[}3\mbox{]}
+\begin{DoxyCompactList}\small\item\em tablica -\/ plansza \end{DoxyCompactList}\item 
+int \hyperlink{structwezel_a810cda81b39057158de9c45373bb6959}{nruchu}
+\begin{DoxyCompactList}\small\item\em ilość możliwych do wykonania ruchów \end{DoxyCompactList}\item 
+int \hyperlink{structwezel_ae0d7a5ffe5db5ae68d74ab8b796ef9d0}{gracz}
+\begin{DoxyCompactList}\small\item\em znak danego gracza 1-\/\textquotesingle{}x\textquotesingle{} 2-\/\textquotesingle{}o\textquotesingle{} \end{DoxyCompactList}\item 
+int \hyperlink{structwezel_aa2eeaaa4d77865a3a4d0e0fd4fbde30b}{nr}
+\begin{DoxyCompactList}\small\item\em wykonywany ruch -\/ numer kolejnego możliwego ruchu \end{DoxyCompactList}\item 
+int \hyperlink{structwezel_a87379e5872e2a13715421baec8dae5cf}{sytuacja}
+\begin{DoxyCompactList}\small\item\em sytuacja na planszy 0-\/nieroztrzygnięta 1-\/wygrana komputera 2-\/wygrana gracza 3-\/remis \end{DoxyCompactList}\item 
+struct \hyperlink{structwsk}{wsk} $\ast$ \hyperlink{structwezel_afa4e8d9b533246f9cf7d3ccdeefa2b3e}{n}
+\begin{DoxyCompactList}\small\item\em wskaźnik na listę kolejnych elementów drzewa \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Opis szczegółowy}
+Element drzewa dynamicznego. 
+
+Definicja elementu dynamicznego drzewa możliwych ruchów. 
+
+\subsection{Dokumentacja atrybutów składowych}
+\index{wezel@{wezel}!gracz@{gracz}}
+\index{gracz@{gracz}!wezel@{wezel}}
+\subsubsection[{\texorpdfstring{gracz}{gracz}}]{\setlength{\rightskip}{0pt plus 5cm}int wezel\+::gracz}\hypertarget{structwezel_ae0d7a5ffe5db5ae68d74ab8b796ef9d0}{}\label{structwezel_ae0d7a5ffe5db5ae68d74ab8b796ef9d0}
+
+
+znak danego gracza 1-\/\textquotesingle{}x\textquotesingle{} 2-\/\textquotesingle{}o\textquotesingle{} 
+
+\index{wezel@{wezel}!n@{n}}
+\index{n@{n}!wezel@{wezel}}
+\subsubsection[{\texorpdfstring{n}{n}}]{\setlength{\rightskip}{0pt plus 5cm}struct {\bf wsk}$\ast$ wezel\+::n}\hypertarget{structwezel_afa4e8d9b533246f9cf7d3ccdeefa2b3e}{}\label{structwezel_afa4e8d9b533246f9cf7d3ccdeefa2b3e}
+
+
+wskaźnik na listę kolejnych elementów drzewa 
+
+\index{wezel@{wezel}!nr@{nr}}
+\index{nr@{nr}!wezel@{wezel}}
+\subsubsection[{\texorpdfstring{nr}{nr}}]{\setlength{\rightskip}{0pt plus 5cm}int wezel\+::nr}\hypertarget{structwezel_aa2eeaaa4d77865a3a4d0e0fd4fbde30b}{}\label{structwezel_aa2eeaaa4d77865a3a4d0e0fd4fbde30b}
+
+
+wykonywany ruch -\/ numer kolejnego możliwego ruchu 
+
+\index{wezel@{wezel}!nruchu@{nruchu}}
+\index{nruchu@{nruchu}!wezel@{wezel}}
+\subsubsection[{\texorpdfstring{nruchu}{nruchu}}]{\setlength{\rightskip}{0pt plus 5cm}int wezel\+::nruchu}\hypertarget{structwezel_a810cda81b39057158de9c45373bb6959}{}\label{structwezel_a810cda81b39057158de9c45373bb6959}
+
+
+ilość możliwych do wykonania ruchów 
+
+\index{wezel@{wezel}!P@{P}}
+\index{P@{P}!wezel@{wezel}}
+\subsubsection[{\texorpdfstring{P}{P}}]{\setlength{\rightskip}{0pt plus 5cm}char wezel\+::P\mbox{[}3\mbox{]}\mbox{[}3\mbox{]}}\hypertarget{structwezel_af8b190ce1c018baaf3d6b29c8b1703ca}{}\label{structwezel_af8b190ce1c018baaf3d6b29c8b1703ca}
+
+
+tablica -\/ plansza 
+
+\index{wezel@{wezel}!sytuacja@{sytuacja}}
+\index{sytuacja@{sytuacja}!wezel@{wezel}}
+\subsubsection[{\texorpdfstring{sytuacja}{sytuacja}}]{\setlength{\rightskip}{0pt plus 5cm}int wezel\+::sytuacja}\hypertarget{structwezel_a87379e5872e2a13715421baec8dae5cf}{}\label{structwezel_a87379e5872e2a13715421baec8dae5cf}
+
+
+sytuacja na planszy 0-\/nieroztrzygnięta 1-\/wygrana komputera 2-\/wygrana gracza 3-\/remis 
+
+
+
+Dokumentacja dla tej struktury została wygenerowana z pliku\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{drzewo_8h}{drzewo.\+h}\end{DoxyCompactItemize}

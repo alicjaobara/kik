@@ -1,0 +1,81 @@
+\hypertarget{structtab}{}\section{Dokumentacja struktury tab}
+\label{structtab}\index{tab@{tab}}
+
+
+Element listy dynamicznej tablic.  
+
+
+
+
+{\ttfamily \#include $<$tablice.\+h$>$}
+
+
+
+Diagram współpracy dla tab\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=150pt]{structtab__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Atrybuty publiczne}
+\begin{DoxyCompactItemize}
+\item 
+int $\ast$ \hyperlink{structtab_ad2b320d15f1496ed3147a7cdb2e5e1fb}{W}
+\begin{DoxyCompactList}\small\item\em wskaźnik tablicy liczby wygranych gier \end{DoxyCompactList}\item 
+int $\ast$ \hyperlink{structtab_acc9e4ee7e5e6df2449875e0a1dc67b18}{R}
+\begin{DoxyCompactList}\small\item\em wskaźnik tablicy liczby zremisowanych gier \end{DoxyCompactList}\item 
+int $\ast$ \hyperlink{structtab_aa99978b9e36e661312d4ac4581421a28}{P}
+\begin{DoxyCompactList}\small\item\em wskaźnik tablicy liczby przegranych gier \end{DoxyCompactList}\item 
+int \hyperlink{structtab_a8b52ff4e9a57646f4890690e1266c16f}{nruchu}
+\begin{DoxyCompactList}\small\item\em numer kolejnego wykonywanego ruchu w drzewie / poziom drzewa \end{DoxyCompactList}\item 
+\hyperlink{structtab}{tab} $\ast$ \hyperlink{structtab_abca0375dfae9e97ee6b0457d3b562ac9}{nast}
+\begin{DoxyCompactList}\small\item\em wskaźnik na następny element listy \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Opis szczegółowy}
+Element listy dynamicznej tablic. 
+
+Definicja elementu dynamicznej lity tablic. Tablice zawierają liczbę wygranych, remisów i przegranych dla kopmutera dla jednego poziomu drzewa. 
+
+\subsection{Dokumentacja atrybutów składowych}
+\index{tab@{tab}!nast@{nast}}
+\index{nast@{nast}!tab@{tab}}
+\subsubsection[{\texorpdfstring{nast}{nast}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf tab}$\ast$ tab\+::nast}\hypertarget{structtab_abca0375dfae9e97ee6b0457d3b562ac9}{}\label{structtab_abca0375dfae9e97ee6b0457d3b562ac9}
+
+
+wskaźnik na następny element listy 
+
+\index{tab@{tab}!nruchu@{nruchu}}
+\index{nruchu@{nruchu}!tab@{tab}}
+\subsubsection[{\texorpdfstring{nruchu}{nruchu}}]{\setlength{\rightskip}{0pt plus 5cm}int tab\+::nruchu}\hypertarget{structtab_a8b52ff4e9a57646f4890690e1266c16f}{}\label{structtab_a8b52ff4e9a57646f4890690e1266c16f}
+
+
+numer kolejnego wykonywanego ruchu w drzewie / poziom drzewa 
+
+\index{tab@{tab}!P@{P}}
+\index{P@{P}!tab@{tab}}
+\subsubsection[{\texorpdfstring{P}{P}}]{\setlength{\rightskip}{0pt plus 5cm}int$\ast$ tab\+::P}\hypertarget{structtab_aa99978b9e36e661312d4ac4581421a28}{}\label{structtab_aa99978b9e36e661312d4ac4581421a28}
+
+
+wskaźnik tablicy liczby przegranych gier 
+
+\index{tab@{tab}!R@{R}}
+\index{R@{R}!tab@{tab}}
+\subsubsection[{\texorpdfstring{R}{R}}]{\setlength{\rightskip}{0pt plus 5cm}int$\ast$ tab\+::R}\hypertarget{structtab_acc9e4ee7e5e6df2449875e0a1dc67b18}{}\label{structtab_acc9e4ee7e5e6df2449875e0a1dc67b18}
+
+
+wskaźnik tablicy liczby zremisowanych gier 
+
+\index{tab@{tab}!W@{W}}
+\index{W@{W}!tab@{tab}}
+\subsubsection[{\texorpdfstring{W}{W}}]{\setlength{\rightskip}{0pt plus 5cm}int$\ast$ tab\+::W}\hypertarget{structtab_ad2b320d15f1496ed3147a7cdb2e5e1fb}{}\label{structtab_ad2b320d15f1496ed3147a7cdb2e5e1fb}
+
+
+wskaźnik tablicy liczby wygranych gier 
+
+
+
+Dokumentacja dla tej struktury została wygenerowana z pliku\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{tablice_8h}{tablice.\+h}\end{DoxyCompactItemize}

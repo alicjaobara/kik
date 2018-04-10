@@ -1,0 +1,179 @@
+\hypertarget{tablice_8h}{}\section{Dokumentacja pliku tablice.\+h}
+\label{tablice_8h}\index{tablice.\+h@{tablice.\+h}}
+
+
+Plik nagłówkowy modułu tablice.  
+
+
+{\ttfamily \#include \char`\"{}drzewo.\+h\char`\"{}}\\*
+Wykres zależności załączania dla tablice.\+h\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{tablice_8h__incl}
+\end{center}
+\end{figure}
+Ten wykres pokazuje, które pliki bezpośrednio lub pośrednio załączają ten plik\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=340pt]{tablice_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Komponenty}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structtab}{tab}
+\begin{DoxyCompactList}\small\item\em Element listy dynamicznej tablic. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Funkcje}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{tablice_8h_a97ef69276f5e27f59c6cb1da7f311ced}{lista\+\_\+tab} (\hyperlink{structtab}{tab} $\ast$\&t, int N, \hyperlink{structwezel}{wezel} $\ast$pop, int licznik, int nr)
+\begin{DoxyCompactList}\small\item\em Tworzenie listy. \end{DoxyCompactList}\item 
+void \hyperlink{tablice_8h_a06b2e02c3511e4acd25ccd5f26ed9dbe}{usun\+\_\+tab} (\hyperlink{structtab}{tab} $\ast$\&k)
+\begin{DoxyCompactList}\small\item\em Usuwanie listy. \end{DoxyCompactList}\item 
+int \hyperlink{tablice_8h_a1438246f4c5fc63d581202ac34f0bd1f}{ruch\+\_\+komp} (\hyperlink{structtab}{tab} $\ast$x, int N)
+\begin{DoxyCompactList}\small\item\em Wybór ruchu komputera. \end{DoxyCompactList}\item 
+int $\ast$ \hyperlink{tablice_8h_a820a840ec301f638919a2e1917640a7d}{nowa\+\_\+tab} (int N)
+\begin{DoxyCompactList}\small\item\em Tworzenie nowej tablicy. \end{DoxyCompactList}\item 
+bool \hyperlink{tablice_8h_a545123090d1b2cde9850d53ae29f3dd7}{czy\+\_\+pelna\+\_\+tab} (int $\ast$T, int N)
+\begin{DoxyCompactList}\small\item\em Sprawdznie czy tablica jest pełna. \end{DoxyCompactList}\item 
+bool \hyperlink{tablice_8h_a6e5296e1097e256322d15ed95f6048b2}{czy\+\_\+prawie\+\_\+pelna\+\_\+tab} (int $\ast$T, int N)
+\begin{DoxyCompactList}\small\item\em Sprawdznie czy tablica jest prawie pełna. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Opis szczegółowy}
+Plik nagłówkowy modułu tablice. 
+
+
+
+\subsection{Dokumentacja funkcji}
+\index{tablice.\+h@{tablice.\+h}!czy\+\_\+pelna\+\_\+tab@{czy\+\_\+pelna\+\_\+tab}}
+\index{czy\+\_\+pelna\+\_\+tab@{czy\+\_\+pelna\+\_\+tab}!tablice.\+h@{tablice.\+h}}
+\subsubsection[{\texorpdfstring{czy\+\_\+pelna\+\_\+tab(int $\ast$\+T, int N)}{czy_pelna_tab(int *T, int N)}}]{\setlength{\rightskip}{0pt plus 5cm}bool czy\+\_\+pelna\+\_\+tab (
+\begin{DoxyParamCaption}
+\item[{int $\ast$}]{T, }
+\item[{int}]{N}
+\end{DoxyParamCaption}
+)}\hypertarget{tablice_8h_a545123090d1b2cde9850d53ae29f3dd7}{}\label{tablice_8h_a545123090d1b2cde9850d53ae29f3dd7}
+
+
+Sprawdznie czy tablica jest pełna. 
+
+Funkcja sprawdzająca czy dana tablica T ma jakieś pole równe 0, wówczas zwracająca false. 
+\begin{DoxyParams}{Parametry}
+{\em T} & wskaźnik tablicy \\
+\hline
+{\em N} & wielkość tablicy \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+czy tablica jest pełna 
+\end{DoxyReturn}
+\index{tablice.\+h@{tablice.\+h}!czy\+\_\+prawie\+\_\+pelna\+\_\+tab@{czy\+\_\+prawie\+\_\+pelna\+\_\+tab}}
+\index{czy\+\_\+prawie\+\_\+pelna\+\_\+tab@{czy\+\_\+prawie\+\_\+pelna\+\_\+tab}!tablice.\+h@{tablice.\+h}}
+\subsubsection[{\texorpdfstring{czy\+\_\+prawie\+\_\+pelna\+\_\+tab(int $\ast$\+T, int N)}{czy_prawie_pelna_tab(int *T, int N)}}]{\setlength{\rightskip}{0pt plus 5cm}bool czy\+\_\+prawie\+\_\+pelna\+\_\+tab (
+\begin{DoxyParamCaption}
+\item[{int $\ast$}]{T, }
+\item[{int}]{N}
+\end{DoxyParamCaption}
+)}\hypertarget{tablice_8h_a6e5296e1097e256322d15ed95f6048b2}{}\label{tablice_8h_a6e5296e1097e256322d15ed95f6048b2}
+
+
+Sprawdznie czy tablica jest prawie pełna. 
+
+Funkcja sprawdzająca czy dana tablica T ma dokładnie jedno pole równe 0, wówczas zwracająca true. 
+\begin{DoxyParams}{Parametry}
+{\em T} & wskaźnik tablicy \\
+\hline
+{\em N} & wielkość tablicy \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+czy tablica jest prawnie pełna 
+\end{DoxyReturn}
+\index{tablice.\+h@{tablice.\+h}!lista\+\_\+tab@{lista\+\_\+tab}}
+\index{lista\+\_\+tab@{lista\+\_\+tab}!tablice.\+h@{tablice.\+h}}
+\subsubsection[{\texorpdfstring{lista\+\_\+tab(tab $\ast$\&t, int N, wezel $\ast$pop, int licznik, int nr)}{lista_tab(tab *&t, int N, wezel *pop, int licznik, int nr)}}]{\setlength{\rightskip}{0pt plus 5cm}void lista\+\_\+tab (
+\begin{DoxyParamCaption}
+\item[{{\bf tab} $\ast$\&}]{t, }
+\item[{int}]{N, }
+\item[{{\bf wezel} $\ast$}]{pop, }
+\item[{int}]{licznik, }
+\item[{int}]{nr}
+\end{DoxyParamCaption}
+)}\hypertarget{tablice_8h_a97ef69276f5e27f59c6cb1da7f311ced}{}\label{tablice_8h_a97ef69276f5e27f59c6cb1da7f311ced}
+
+
+Tworzenie listy. 
+
+Procedura rekurencyjna tworząca nową listę tablic. 
+\begin{DoxyParams}{Parametry}
+{\em t} & poprzedni element listy \\
+\hline
+{\em N} & liczba możliwych do wykonania przez kompuer ruchów \\
+\hline
+{\em pop} & element drzewa, z którego zczytywane są liczby wygranych, przegranych i remisów dla następnego ruchu \\
+\hline
+{\em licznik} & numer określający, który to z kolei wykonywany ruch \\
+\hline
+{\em nr} & numer wykonywanego ruchu \\
+\hline
+\end{DoxyParams}
+\index{tablice.\+h@{tablice.\+h}!nowa\+\_\+tab@{nowa\+\_\+tab}}
+\index{nowa\+\_\+tab@{nowa\+\_\+tab}!tablice.\+h@{tablice.\+h}}
+\subsubsection[{\texorpdfstring{nowa\+\_\+tab(int N)}{nowa_tab(int N)}}]{\setlength{\rightskip}{0pt plus 5cm}int$\ast$ nowa\+\_\+tab (
+\begin{DoxyParamCaption}
+\item[{int}]{N}
+\end{DoxyParamCaption}
+)}\hypertarget{tablice_8h_a820a840ec301f638919a2e1917640a7d}{}\label{tablice_8h_a820a840ec301f638919a2e1917640a7d}
+
+
+Tworzenie nowej tablicy. 
+
+Funkcja tworząca nową tablicę jednowymiarową dynamiczną o wielkości N i zwracająca jej wskaźnik. 
+\begin{DoxyParams}{Parametry}
+{\em N} & wielkość tablicy \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+wskaźnik tablicy 
+\end{DoxyReturn}
+\index{tablice.\+h@{tablice.\+h}!ruch\+\_\+komp@{ruch\+\_\+komp}}
+\index{ruch\+\_\+komp@{ruch\+\_\+komp}!tablice.\+h@{tablice.\+h}}
+\subsubsection[{\texorpdfstring{ruch\+\_\+komp(tab $\ast$x, int N)}{ruch_komp(tab *x, int N)}}]{\setlength{\rightskip}{0pt plus 5cm}int ruch\+\_\+komp (
+\begin{DoxyParamCaption}
+\item[{{\bf tab} $\ast$}]{x, }
+\item[{int}]{N}
+\end{DoxyParamCaption}
+)}\hypertarget{tablice_8h_a1438246f4c5fc63d581202ac34f0bd1f}{}\label{tablice_8h_a1438246f4c5fc63d581202ac34f0bd1f}
+
+
+Wybór ruchu komputera. 
+
+Funkcja zwracająca numer ruchu do wykonania dla komputera na podstawie listy tablic. 
+\begin{DoxyParams}{Parametry}
+{\em x} & głowa listy \\
+\hline
+{\em N} & liczba możliwych do wykonania ruchów \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+numer ruchu 
+\end{DoxyReturn}
+\index{tablice.\+h@{tablice.\+h}!usun\+\_\+tab@{usun\+\_\+tab}}
+\index{usun\+\_\+tab@{usun\+\_\+tab}!tablice.\+h@{tablice.\+h}}
+\subsubsection[{\texorpdfstring{usun\+\_\+tab(tab $\ast$\&k)}{usun_tab(tab *&k)}}]{\setlength{\rightskip}{0pt plus 5cm}void usun\+\_\+tab (
+\begin{DoxyParamCaption}
+\item[{{\bf tab} $\ast$\&}]{k}
+\end{DoxyParamCaption}
+)}\hypertarget{tablice_8h_a06b2e02c3511e4acd25ccd5f26ed9dbe}{}\label{tablice_8h_a06b2e02c3511e4acd25ccd5f26ed9dbe}
+
+
+Usuwanie listy. 
+
+Procedura rekurencyjna usuwająca listę tablic. 
+\begin{DoxyParams}{Parametry}
+{\em k} & głowa listy \\
+\hline
+\end{DoxyParams}

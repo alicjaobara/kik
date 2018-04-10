@@ -1,0 +1,144 @@
+\hypertarget{interfejs_8h}{}\section{Dokumentacja pliku interfejs.\+h}
+\label{interfejs_8h}\index{interfejs.\+h@{interfejs.\+h}}
+
+
+Plik nagłówkowy modułu interfejs.  
+
+
+{\ttfamily \#include \char`\"{}gra.\+h\char`\"{}}\\*
+Wykres zależności załączania dla interfejs.\+h\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{interfejs_8h__incl}
+\end{center}
+\end{figure}
+Ten wykres pokazuje, które pliki bezpośrednio lub pośrednio załączają ten plik\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=329pt]{interfejs_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Funkcje}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{interfejs_8h_aa4419b57f1f3030c2a8dd7bab654fc66}{wczytaj\+\_\+int} ()
+\begin{DoxyCompactList}\small\item\em Wczytywanie int-\/ów. \end{DoxyCompactList}\item 
+void \hyperlink{interfejs_8h_aa4dc24d871e1269db26b741240223884}{wyniki} ()
+\begin{DoxyCompactList}\small\item\em Wypisywanie wyników. \end{DoxyCompactList}\item 
+void \hyperlink{interfejs_8h_ad1500d677f028e366ff4d32b904fb5a9}{drukuj\+\_\+plansze} (char T\mbox{[}3\mbox{]}\mbox{[}3\mbox{]})
+\begin{DoxyCompactList}\small\item\em Wypisanie planszy. \end{DoxyCompactList}\item 
+int \hyperlink{interfejs_8h_a01a8e63a894140df95ee846e79ef4db0}{podaj\+\_\+ruch} ()
+\begin{DoxyCompactList}\small\item\em Wczytywanie ruchu. \end{DoxyCompactList}\item 
+char \hyperlink{interfejs_8h_a7ae139e3cd444aebab5a4b79bd8d54e0}{wybierz\+\_\+znak} ()
+\begin{DoxyCompactList}\small\item\em Wczytywanie od gracza wyboru znaku. \end{DoxyCompactList}\item 
+int \hyperlink{interfejs_8h_a3f0496d09778c87c97169b32710d7609}{zaczyna} ()
+\begin{DoxyCompactList}\small\item\em Wczytywanie od gracza kto zaczyna. \end{DoxyCompactList}\item 
+string \hyperlink{interfejs_8h_ab7f8136fe0872e52d8d2c585f5f0676b}{podaj\+\_\+nazwe} ()
+\begin{DoxyCompactList}\small\item\em Wczytywanie nazwy. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Opis szczegółowy}
+Plik nagłówkowy modułu interfejs. 
+
+
+
+\subsection{Dokumentacja funkcji}
+\index{interfejs.\+h@{interfejs.\+h}!drukuj\+\_\+plansze@{drukuj\+\_\+plansze}}
+\index{drukuj\+\_\+plansze@{drukuj\+\_\+plansze}!interfejs.\+h@{interfejs.\+h}}
+\subsubsection[{\texorpdfstring{drukuj\+\_\+plansze(char T[3][3])}{drukuj_plansze(char T[3][3])}}]{\setlength{\rightskip}{0pt plus 5cm}void drukuj\+\_\+plansze (
+\begin{DoxyParamCaption}
+\item[{char}]{T\mbox{[}3\mbox{]}\mbox{[}3\mbox{]}}
+\end{DoxyParamCaption}
+)}\hypertarget{interfejs_8h_ad1500d677f028e366ff4d32b904fb5a9}{}\label{interfejs_8h_ad1500d677f028e366ff4d32b904fb5a9}
+
+
+Wypisanie planszy. 
+
+Procedura wypisująca planszę. 
+\begin{DoxyParams}{Parametry}
+{\em T} & plansza \\
+\hline
+\end{DoxyParams}
+\index{interfejs.\+h@{interfejs.\+h}!podaj\+\_\+nazwe@{podaj\+\_\+nazwe}}
+\index{podaj\+\_\+nazwe@{podaj\+\_\+nazwe}!interfejs.\+h@{interfejs.\+h}}
+\subsubsection[{\texorpdfstring{podaj\+\_\+nazwe()}{podaj_nazwe()}}]{\setlength{\rightskip}{0pt plus 5cm}string podaj\+\_\+nazwe (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{interfejs_8h_ab7f8136fe0872e52d8d2c585f5f0676b}{}\label{interfejs_8h_ab7f8136fe0872e52d8d2c585f5f0676b}
+
+
+Wczytywanie nazwy. 
+
+Funkcja interfejsu, wczytujaca od użytkownika jego nazwę do dopisania go do tablicy wyników. \begin{DoxyReturn}{Zwraca}
+wczytana nazwa 
+\end{DoxyReturn}
+\index{interfejs.\+h@{interfejs.\+h}!podaj\+\_\+ruch@{podaj\+\_\+ruch}}
+\index{podaj\+\_\+ruch@{podaj\+\_\+ruch}!interfejs.\+h@{interfejs.\+h}}
+\subsubsection[{\texorpdfstring{podaj\+\_\+ruch()}{podaj_ruch()}}]{\setlength{\rightskip}{0pt plus 5cm}int podaj\+\_\+ruch (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{interfejs_8h_a01a8e63a894140df95ee846e79ef4db0}{}\label{interfejs_8h_a01a8e63a894140df95ee846e79ef4db0}
+
+
+Wczytywanie ruchu. 
+
+Funkcja wczytująca od użytkownika numer ruchu. \begin{DoxyReturn}{Zwraca}
+numer ruchu 
+\end{DoxyReturn}
+\index{interfejs.\+h@{interfejs.\+h}!wczytaj\+\_\+int@{wczytaj\+\_\+int}}
+\index{wczytaj\+\_\+int@{wczytaj\+\_\+int}!interfejs.\+h@{interfejs.\+h}}
+\subsubsection[{\texorpdfstring{wczytaj\+\_\+int()}{wczytaj_int()}}]{\setlength{\rightskip}{0pt plus 5cm}int wczytaj\+\_\+int (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{interfejs_8h_aa4419b57f1f3030c2a8dd7bab654fc66}{}\label{interfejs_8h_aa4419b57f1f3030c2a8dd7bab654fc66}
+
+
+Wczytywanie int-\/ów. 
+
+Funkcja wczytujaca od użytkownika zmienną typu int. \begin{DoxyReturn}{Zwraca}
+wczytany int 
+\end{DoxyReturn}
+\index{interfejs.\+h@{interfejs.\+h}!wybierz\+\_\+znak@{wybierz\+\_\+znak}}
+\index{wybierz\+\_\+znak@{wybierz\+\_\+znak}!interfejs.\+h@{interfejs.\+h}}
+\subsubsection[{\texorpdfstring{wybierz\+\_\+znak()}{wybierz_znak()}}]{\setlength{\rightskip}{0pt plus 5cm}char wybierz\+\_\+znak (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{interfejs_8h_a7ae139e3cd444aebab5a4b79bd8d54e0}{}\label{interfejs_8h_a7ae139e3cd444aebab5a4b79bd8d54e0}
+
+
+Wczytywanie od gracza wyboru znaku. 
+
+Funkcja interfejsu, wczytujaca od użytkownika numer oznaczajązy jego wybór dotyczący tego jakim znakiem będzie grał. \begin{DoxyReturn}{Zwraca}
+wybrany znak 
+\end{DoxyReturn}
+\index{interfejs.\+h@{interfejs.\+h}!wyniki@{wyniki}}
+\index{wyniki@{wyniki}!interfejs.\+h@{interfejs.\+h}}
+\subsubsection[{\texorpdfstring{wyniki()}{wyniki()}}]{\setlength{\rightskip}{0pt plus 5cm}void wyniki (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{interfejs_8h_aa4dc24d871e1269db26b741240223884}{}\label{interfejs_8h_aa4dc24d871e1269db26b741240223884}
+
+
+Wypisywanie wyników. 
+
+Procedura wypisująca tablicę wyników z pliku \char`\"{}wyniki.\+txt\char`\"{}. \index{interfejs.\+h@{interfejs.\+h}!zaczyna@{zaczyna}}
+\index{zaczyna@{zaczyna}!interfejs.\+h@{interfejs.\+h}}
+\subsubsection[{\texorpdfstring{zaczyna()}{zaczyna()}}]{\setlength{\rightskip}{0pt plus 5cm}int zaczyna (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{interfejs_8h_a3f0496d09778c87c97169b32710d7609}{}\label{interfejs_8h_a3f0496d09778c87c97169b32710d7609}
+
+
+Wczytywanie od gracza kto zaczyna. 
+
+Funkcja interfejsu, wczytujaca od użytkownika numer oznaczajązy jego wybór dotyczący tego kto zacznie grę. \begin{DoxyReturn}{Zwraca}
+wczytany numer 
+\end{DoxyReturn}

@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Kółko i krzyżyk: Plik źródłowy drzewo.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Kółko i krzyżyk
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Strona&#160;główna</span></a></li>
+      <li><a href="annotated.html"><span>Klasy</span></a></li>
+      <li class="current"><a href="files.html"><span>Pliki</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Szukaj" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;plików</span></a></li>
+      <li><a href="globals.html"><span>Składowe&#160;plików</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">drzewo.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="drzewo_8h.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#ifndef M_H</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#define M_H</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="gra_8h.html">gra.h</a>&quot;</span></div><div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="structwezel.html">   12</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structwezel.html">wezel</a></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div><div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="structwezel.html#af8b190ce1c018baaf3d6b29c8b1703ca">   15</a></span>&#160;    <span class="keywordtype">char</span> <a class="code" href="structwezel.html#af8b190ce1c018baaf3d6b29c8b1703ca">P</a>[3][3];</div><div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="structwezel.html#a810cda81b39057158de9c45373bb6959">   17</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structwezel.html#a810cda81b39057158de9c45373bb6959">nruchu</a>;</div><div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="structwezel.html#ae0d7a5ffe5db5ae68d74ab8b796ef9d0">   19</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structwezel.html#ae0d7a5ffe5db5ae68d74ab8b796ef9d0">gracz</a>; <span class="comment">//1-&#39;x&#39;  2-&#39;o&#39;</span></div><div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="structwezel.html#aa2eeaaa4d77865a3a4d0e0fd4fbde30b">   21</a></span>&#160;<span class="comment"></span>    <span class="keywordtype">int</span> <a class="code" href="structwezel.html#aa2eeaaa4d77865a3a4d0e0fd4fbde30b">nr</a>; <span class="comment">//numer wykonywanego ruchu</span></div><div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="structwezel.html#a87379e5872e2a13715421baec8dae5cf">   23</a></span>&#160;<span class="comment"></span>    <span class="keywordtype">int</span> <a class="code" href="structwezel.html#a87379e5872e2a13715421baec8dae5cf">sytuacja</a>; <span class="comment">//0-nieroz 1-komputer 2-gracz 3-remis</span></div><div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="structwezel.html#afa4e8d9b533246f9cf7d3ccdeefa2b3e">   25</a></span>&#160;<span class="comment"></span>    <span class="keyword">struct </span><a class="code" href="structwsk.html">wsk</a> *<a class="code" href="structwezel.html#afa4e8d9b533246f9cf7d3ccdeefa2b3e">n</a>;</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;};</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div><div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="structwsk.html">   32</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structwsk.html">wsk</a></div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;{</div><div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="structwsk.html#a69da68a1f76055e88538302c86ec7ac6">   35</a></span>&#160;    <a class="code" href="structwezel.html">wezel</a> *<a class="code" href="structwsk.html#a69da68a1f76055e88538302c86ec7ac6">w</a>;</div><div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="structwsk.html#a5957f1d185b541d7572b8d9a11a8bf7d">   37</a></span>&#160;    <a class="code" href="structwsk.html">wsk</a> *<a class="code" href="structwsk.html#a5957f1d185b541d7572b8d9a11a8bf7d">q</a>;</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;};</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<a class="code" href="structwezel.html">wezel</a>* <a class="code" href="drzewo_8h.html#a90322c22721610cd4c5a812fcdd0427c">drzewo</a>(<span class="keywordtype">char</span> T[3][3],<span class="keywordtype">char</span> znakk);</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="keywordtype">void</span> <a class="code" href="drzewo_8h.html#ad4d63b25f7d0462a217e05cf2da8849f">usun_drzewo</a>(<a class="code" href="structwezel.html">wezel</a>*&amp; kor);</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="keywordtype">void</span> <a class="code" href="drzewo_8h.html#a1dbe44033e123ea16882bb48f91b9bc3">usun_bok</a>(<a class="code" href="structwsk.html">wsk</a>*&amp; <a class="code" href="structwezel.html#afa4e8d9b533246f9cf7d3ccdeefa2b3e">n</a>);</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="keywordtype">void</span> <a class="code" href="drzewo_8h.html#a8d34288192893c796076ba13c759685a">t_drzewo</a>(<a class="code" href="structwezel.html">wezel</a>* pop, <span class="keywordtype">int</span> poziom, <span class="keywordtype">char</span> znakk);</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="keywordtype">void</span> <a class="code" href="drzewo_8h.html#aee17db8f1899626ab6f4ca2b010d3569">przepisz</a>(<span class="keywordtype">char</span> T[3][3],<span class="keywordtype">char</span> <a class="code" href="structwezel.html#af8b190ce1c018baaf3d6b29c8b1703ca">P</a>[3][3]); <span class="comment">// T=P</span></div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="comment"></span><span class="keywordtype">void</span> <a class="code" href="drzewo_8h.html#a025cadf1c2c5401689aa77bc194057a5">lepsze</a>(<a class="code" href="structwezel.html">wezel</a>* pop);</div><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="keywordtype">void</span> <a class="code" href="drzewo_8h.html#a029b2288db51eebfd1282e2f9323086c">sprawdz_poziom</a>(<a class="code" href="structwezel.html">wezel</a>* pop);</div><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="preprocessor">#endif // M_H</span></div><div class="ttc" id="structwezel_html_a87379e5872e2a13715421baec8dae5cf"><div class="ttname"><a href="structwezel.html#a87379e5872e2a13715421baec8dae5cf">wezel::sytuacja</a></div><div class="ttdeci">int sytuacja</div><div class="ttdoc">sytuacja na planszy 0-nieroztrzygnięta 1-wygrana komputera 2-wygrana gracza 3-remis ...</div><div class="ttdef"><b>Definition:</b> drzewo.h:23</div></div>
+<div class="ttc" id="drzewo_8h_html_ad4d63b25f7d0462a217e05cf2da8849f"><div class="ttname"><a href="drzewo_8h.html#ad4d63b25f7d0462a217e05cf2da8849f">usun_drzewo</a></div><div class="ttdeci">void usun_drzewo(wezel *&amp;kor)</div><div class="ttdoc">Usuwanie drzewa. </div><div class="ttdef"><b>Definition:</b> drzewo.cpp:62</div></div>
+<div class="ttc" id="structwsk_html_a69da68a1f76055e88538302c86ec7ac6"><div class="ttname"><a href="structwsk.html#a69da68a1f76055e88538302c86ec7ac6">wsk::w</a></div><div class="ttdeci">wezel * w</div><div class="ttdoc">wskaźnika na kolejny element drzewa </div><div class="ttdef"><b>Definition:</b> drzewo.h:35</div></div>
+<div class="ttc" id="structwezel_html_afa4e8d9b533246f9cf7d3ccdeefa2b3e"><div class="ttname"><a href="structwezel.html#afa4e8d9b533246f9cf7d3ccdeefa2b3e">wezel::n</a></div><div class="ttdeci">struct wsk * n</div><div class="ttdoc">wskaźnik na listę kolejnych elementów drzewa </div><div class="ttdef"><b>Definition:</b> drzewo.h:25</div></div>
+<div class="ttc" id="drzewo_8h_html_aee17db8f1899626ab6f4ca2b010d3569"><div class="ttname"><a href="drzewo_8h.html#aee17db8f1899626ab6f4ca2b010d3569">przepisz</a></div><div class="ttdeci">void przepisz(char T[3][3], char P[3][3])</div><div class="ttdoc">Przepisywanie tablicy. </div><div class="ttdef"><b>Definition:</b> drzewo.cpp:93</div></div>
+<div class="ttc" id="drzewo_8h_html_a025cadf1c2c5401689aa77bc194057a5"><div class="ttname"><a href="drzewo_8h.html#a025cadf1c2c5401689aa77bc194057a5">lepsze</a></div><div class="ttdeci">void lepsze(wezel *pop)</div><div class="ttdoc">Ulepszenie drzewa. </div><div class="ttdef"><b>Definition:</b> drzewo.cpp:99</div></div>
+<div class="ttc" id="drzewo_8h_html_a90322c22721610cd4c5a812fcdd0427c"><div class="ttname"><a href="drzewo_8h.html#a90322c22721610cd4c5a812fcdd0427c">drzewo</a></div><div class="ttdeci">wezel * drzewo(char T[3][3], char znakk)</div><div class="ttdoc">Nowe drzewo. </div><div class="ttdef"><b>Definition:</b> drzewo.cpp:75</div></div>
+<div class="ttc" id="drzewo_8h_html_a8d34288192893c796076ba13c759685a"><div class="ttname"><a href="drzewo_8h.html#a8d34288192893c796076ba13c759685a">t_drzewo</a></div><div class="ttdeci">void t_drzewo(wezel *pop, int poziom, char znakk)</div><div class="ttdoc">Rekurencyjne tworzenie drzewa. </div><div class="ttdef"><b>Definition:</b> drzewo.cpp:6</div></div>
+<div class="ttc" id="structwezel_html"><div class="ttname"><a href="structwezel.html">wezel</a></div><div class="ttdoc">Element drzewa dynamicznego. </div><div class="ttdef"><b>Definition:</b> drzewo.h:12</div></div>
+<div class="ttc" id="gra_8h_html"><div class="ttname"><a href="gra_8h.html">gra.h</a></div><div class="ttdoc">Plik nagłówkowy modułu gra. </div></div>
+<div class="ttc" id="structwsk_html"><div class="ttname"><a href="structwsk.html">wsk</a></div><div class="ttdoc">Element listy w drzewie dynamicznym. </div><div class="ttdef"><b>Definition:</b> drzewo.h:32</div></div>
+<div class="ttc" id="structwsk_html_a5957f1d185b541d7572b8d9a11a8bf7d"><div class="ttname"><a href="structwsk.html#a5957f1d185b541d7572b8d9a11a8bf7d">wsk::q</a></div><div class="ttdeci">wsk * q</div><div class="ttdoc">wskaźnik na kolejny element listy </div><div class="ttdef"><b>Definition:</b> drzewo.h:37</div></div>
+<div class="ttc" id="structwezel_html_af8b190ce1c018baaf3d6b29c8b1703ca"><div class="ttname"><a href="structwezel.html#af8b190ce1c018baaf3d6b29c8b1703ca">wezel::P</a></div><div class="ttdeci">char P[3][3]</div><div class="ttdoc">tablica - plansza </div><div class="ttdef"><b>Definition:</b> drzewo.h:15</div></div>
+<div class="ttc" id="drzewo_8h_html_a1dbe44033e123ea16882bb48f91b9bc3"><div class="ttname"><a href="drzewo_8h.html#a1dbe44033e123ea16882bb48f91b9bc3">usun_bok</a></div><div class="ttdeci">void usun_bok(wsk *&amp;n)</div><div class="ttdoc">Usuwanie listy w drzewie. </div><div class="ttdef"><b>Definition:</b> drzewo.cpp:49</div></div>
+<div class="ttc" id="structwezel_html_a810cda81b39057158de9c45373bb6959"><div class="ttname"><a href="structwezel.html#a810cda81b39057158de9c45373bb6959">wezel::nruchu</a></div><div class="ttdeci">int nruchu</div><div class="ttdoc">ilość możliwych do wykonania ruchów </div><div class="ttdef"><b>Definition:</b> drzewo.h:17</div></div>
+<div class="ttc" id="structwezel_html_ae0d7a5ffe5db5ae68d74ab8b796ef9d0"><div class="ttname"><a href="structwezel.html#ae0d7a5ffe5db5ae68d74ab8b796ef9d0">wezel::gracz</a></div><div class="ttdeci">int gracz</div><div class="ttdoc">znak danego gracza 1-&amp;#39;x&amp;#39; 2-&amp;#39;o&amp;#39; </div><div class="ttdef"><b>Definition:</b> drzewo.h:19</div></div>
+<div class="ttc" id="structwezel_html_aa2eeaaa4d77865a3a4d0e0fd4fbde30b"><div class="ttname"><a href="structwezel.html#aa2eeaaa4d77865a3a4d0e0fd4fbde30b">wezel::nr</a></div><div class="ttdeci">int nr</div><div class="ttdoc">wykonywany ruch - numer kolejnego możliwego ruchu </div><div class="ttdef"><b>Definition:</b> drzewo.h:21</div></div>
+<div class="ttc" id="drzewo_8h_html_a029b2288db51eebfd1282e2f9323086c"><div class="ttname"><a href="drzewo_8h.html#a029b2288db51eebfd1282e2f9323086c">sprawdz_poziom</a></div><div class="ttdeci">void sprawdz_poziom(wezel *pop)</div><div class="ttdoc">Usuwanie ruchów. </div><div class="ttdef"><b>Definition:</b> drzewo.cpp:113</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

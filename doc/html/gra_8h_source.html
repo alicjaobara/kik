@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Kółko i krzyżyk: Plik źródłowy gra.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Kółko i krzyżyk
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Strona&#160;główna</span></a></li>
+      <li><a href="annotated.html"><span>Klasy</span></a></li>
+      <li class="current"><a href="files.html"><span>Pliki</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Szukaj" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;plików</span></a></li>
+      <li><a href="globals.html"><span>Składowe&#160;plików</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">gra.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="gra_8h.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#ifndef I_H</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#define I_H</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;fstream&gt;</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;iomanip&gt;</span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="drzewo_8h.html">drzewo.h</a>&quot;</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="tablice_8h.html">tablice.h</a>&quot;</span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="interfejs_8h.html">interfejs.h</a>&quot;</span></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">using namespace </span><a class="code" href="namespacestd.html">std</a>;</div><div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="structosoba.html">   19</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structosoba.html">osoba</a> <span class="comment">//struktura do wpisywania wyników</span></div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;{</div><div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="structosoba.html#aa847f66e739c0749eca2150a5dff5cc1">   22</a></span>&#160;    <span class="keywordtype">string</span> <a class="code" href="structosoba.html#aa847f66e739c0749eca2150a5dff5cc1">nazwa</a>;</div><div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="structosoba.html#a295e28af8e47de1d480d19aa61a105ea">   24</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structosoba.html#a295e28af8e47de1d480d19aa61a105ea">wygrane</a>;</div><div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="structosoba.html#a722ff954254b6eb270c954822299a0a0">   26</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structosoba.html#a722ff954254b6eb270c954822299a0a0">remisy</a>;</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;};</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keywordtype">void</span> <a class="code" href="gra_8h.html#a472d54e5297c6dfea59903654de33ee8">gra</a>();</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="keywordtype">void</span> <a class="code" href="gra_8h.html#ac74b2e179aafb0d5ace62ae1912cdb70">wpisz_tab</a>(<span class="keywordtype">char</span> T[3][3], <span class="keywordtype">int</span> n, <span class="keywordtype">char</span> znak); <span class="comment">//wpisuje znak do n-tego wolnego miejsca na planszy T</span></div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="comment"></span><span class="keywordtype">int</span> <a class="code" href="gra_8h.html#a23182285f4fd1e760bdf5d29101488a1">wygrana</a>(<span class="keywordtype">char</span> T[3][3]); <span class="comment">//0-nieroz 1-&#39;o&#39; 2-&#39;x&#39; 3-remis</span></div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="comment"></span><span class="keywordtype">void</span> <a class="code" href="gra_8h.html#ae9feff07994880d9f0164bbad6aff388">wpisz_do_wyniki</a>(<span class="keywordtype">int</span> l, <span class="keywordtype">string</span> nowe); <span class="comment">//dopisuje nowe wyniki, l=1 gdy wygrana, l=0 gdy remis</span></div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="comment"></span><span class="keywordtype">void</span> <a class="code" href="gra_8h.html#ab0797c12c305cbec795147e947ec1e39">nowa_plansza</a>(<span class="keywordtype">char</span> T[3][3]);<span class="comment">//wypełnia plansze &#39;-&#39;</span></div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="preprocessor">#endif // I_H</span></div><div class="ttc" id="structosoba_html_a295e28af8e47de1d480d19aa61a105ea"><div class="ttname"><a href="structosoba.html#a295e28af8e47de1d480d19aa61a105ea">osoba::wygrane</a></div><div class="ttdeci">int wygrane</div><div class="ttdoc">liczba wygranych gier danego gracza </div><div class="ttdef"><b>Definition:</b> gra.h:24</div></div>
+<div class="ttc" id="gra_8h_html_a23182285f4fd1e760bdf5d29101488a1"><div class="ttname"><a href="gra_8h.html#a23182285f4fd1e760bdf5d29101488a1">wygrana</a></div><div class="ttdeci">int wygrana(char T[3][3])</div><div class="ttdoc">Sprawdzanie sytuacji. </div><div class="ttdef"><b>Definition:</b> gra.cpp:23</div></div>
+<div class="ttc" id="namespacestd_html"><div class="ttname"><a href="namespacestd.html">std</a></div></div>
+<div class="ttc" id="gra_8h_html_ab0797c12c305cbec795147e947ec1e39"><div class="ttname"><a href="gra_8h.html#ab0797c12c305cbec795147e947ec1e39">nowa_plansza</a></div><div class="ttdeci">void nowa_plansza(char T[3][3])</div><div class="ttdoc">Nowa plansza. </div><div class="ttdef"><b>Definition:</b> gra.cpp:6</div></div>
+<div class="ttc" id="structosoba_html"><div class="ttname"><a href="structosoba.html">osoba</a></div><div class="ttdoc">Element do wpisywania wyników. </div><div class="ttdef"><b>Definition:</b> gra.h:19</div></div>
+<div class="ttc" id="structosoba_html_aa847f66e739c0749eca2150a5dff5cc1"><div class="ttname"><a href="structosoba.html#aa847f66e739c0749eca2150a5dff5cc1">osoba::nazwa</a></div><div class="ttdeci">string nazwa</div><div class="ttdoc">nazwa danego gracza </div><div class="ttdef"><b>Definition:</b> gra.h:22</div></div>
+<div class="ttc" id="gra_8h_html_ae9feff07994880d9f0164bbad6aff388"><div class="ttname"><a href="gra_8h.html#ae9feff07994880d9f0164bbad6aff388">wpisz_do_wyniki</a></div><div class="ttdeci">void wpisz_do_wyniki(int l, string nowe)</div><div class="ttdoc">Wpisywanie do wyników. </div><div class="ttdef"><b>Definition:</b> gra.cpp:114</div></div>
+<div class="ttc" id="interfejs_8h_html"><div class="ttname"><a href="interfejs_8h.html">interfejs.h</a></div><div class="ttdoc">Plik nagłówkowy modułu interfejs. </div></div>
+<div class="ttc" id="gra_8h_html_a472d54e5297c6dfea59903654de33ee8"><div class="ttname"><a href="gra_8h.html#a472d54e5297c6dfea59903654de33ee8">gra</a></div><div class="ttdeci">void gra()</div><div class="ttdoc">Gra. </div><div class="ttdef"><b>Definition:</b> gra.cpp:49</div></div>
+<div class="ttc" id="tablice_8h_html"><div class="ttname"><a href="tablice_8h.html">tablice.h</a></div><div class="ttdoc">Plik nagłówkowy modułu tablice. </div></div>
+<div class="ttc" id="gra_8h_html_ac74b2e179aafb0d5ace62ae1912cdb70"><div class="ttname"><a href="gra_8h.html#ac74b2e179aafb0d5ace62ae1912cdb70">wpisz_tab</a></div><div class="ttdeci">void wpisz_tab(char T[3][3], int n, char znak)</div><div class="ttdoc">Wpisywanie ruchu do planszy. </div><div class="ttdef"><b>Definition:</b> gra.cpp:12</div></div>
+<div class="ttc" id="structosoba_html_a722ff954254b6eb270c954822299a0a0"><div class="ttname"><a href="structosoba.html#a722ff954254b6eb270c954822299a0a0">osoba::remisy</a></div><div class="ttdeci">int remisy</div><div class="ttdoc">liczba zremisowanych gier danego gracza </div><div class="ttdef"><b>Definition:</b> gra.h:26</div></div>
+<div class="ttc" id="drzewo_8h_html"><div class="ttname"><a href="drzewo_8h.html">drzewo.h</a></div><div class="ttdoc">Plik nagłówkowy modułu drzewo. </div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

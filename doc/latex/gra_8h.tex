@@ -1,0 +1,141 @@
+\hypertarget{gra_8h}{}\section{Dokumentacja pliku gra.\+h}
+\label{gra_8h}\index{gra.\+h@{gra.\+h}}
+
+
+Plik nagłówkowy modułu gra.  
+
+
+{\ttfamily \#include $<$iostream$>$}\\*
+{\ttfamily \#include $<$string$>$}\\*
+{\ttfamily \#include $<$fstream$>$}\\*
+{\ttfamily \#include $<$iomanip$>$}\\*
+{\ttfamily \#include \char`\"{}drzewo.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}tablice.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}interfejs.\+h\char`\"{}}\\*
+Wykres zależności załączania dla gra.\+h\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gra_8h__incl}
+\end{center}
+\end{figure}
+Ten wykres pokazuje, które pliki bezpośrednio lub pośrednio załączają ten plik\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gra_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Komponenty}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structosoba}{osoba}
+\begin{DoxyCompactList}\small\item\em Element do wpisywania wyników. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Funkcje}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{gra_8h_a472d54e5297c6dfea59903654de33ee8}{gra} ()
+\begin{DoxyCompactList}\small\item\em Gra. \end{DoxyCompactList}\item 
+void \hyperlink{gra_8h_ac74b2e179aafb0d5ace62ae1912cdb70}{wpisz\+\_\+tab} (char T\mbox{[}3\mbox{]}\mbox{[}3\mbox{]}, int n, char znak)
+\begin{DoxyCompactList}\small\item\em Wpisywanie ruchu do planszy. \end{DoxyCompactList}\item 
+int \hyperlink{gra_8h_a23182285f4fd1e760bdf5d29101488a1}{wygrana} (char T\mbox{[}3\mbox{]}\mbox{[}3\mbox{]})
+\begin{DoxyCompactList}\small\item\em Sprawdzanie sytuacji. \end{DoxyCompactList}\item 
+void \hyperlink{gra_8h_ae9feff07994880d9f0164bbad6aff388}{wpisz\+\_\+do\+\_\+wyniki} (int l, string nowe)
+\begin{DoxyCompactList}\small\item\em Wpisywanie do wyników. \end{DoxyCompactList}\item 
+void \hyperlink{gra_8h_ab0797c12c305cbec795147e947ec1e39}{nowa\+\_\+plansza} (char T\mbox{[}3\mbox{]}\mbox{[}3\mbox{]})
+\begin{DoxyCompactList}\small\item\em Nowa plansza. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Opis szczegółowy}
+Plik nagłówkowy modułu gra. 
+
+
+
+\subsection{Dokumentacja funkcji}
+\index{gra.\+h@{gra.\+h}!gra@{gra}}
+\index{gra@{gra}!gra.\+h@{gra.\+h}}
+\subsubsection[{\texorpdfstring{gra()}{gra()}}]{\setlength{\rightskip}{0pt plus 5cm}void gra (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{gra_8h_a472d54e5297c6dfea59903654de33ee8}{}\label{gra_8h_a472d54e5297c6dfea59903654de33ee8}
+
+
+Gra. 
+
+Procedura przeprowadzająca grę. \index{gra.\+h@{gra.\+h}!nowa\+\_\+plansza@{nowa\+\_\+plansza}}
+\index{nowa\+\_\+plansza@{nowa\+\_\+plansza}!gra.\+h@{gra.\+h}}
+\subsubsection[{\texorpdfstring{nowa\+\_\+plansza(char T[3][3])}{nowa_plansza(char T[3][3])}}]{\setlength{\rightskip}{0pt plus 5cm}void nowa\+\_\+plansza (
+\begin{DoxyParamCaption}
+\item[{char}]{T\mbox{[}3\mbox{]}\mbox{[}3\mbox{]}}
+\end{DoxyParamCaption}
+)}\hypertarget{gra_8h_ab0797c12c305cbec795147e947ec1e39}{}\label{gra_8h_ab0797c12c305cbec795147e947ec1e39}
+
+
+Nowa plansza. 
+
+Procedura wypełniająca planszę znakami \textquotesingle{}-\/\textquotesingle{}. 
+\begin{DoxyParams}{Parametry}
+{\em T} & plansza \\
+\hline
+\end{DoxyParams}
+\index{gra.\+h@{gra.\+h}!wpisz\+\_\+do\+\_\+wyniki@{wpisz\+\_\+do\+\_\+wyniki}}
+\index{wpisz\+\_\+do\+\_\+wyniki@{wpisz\+\_\+do\+\_\+wyniki}!gra.\+h@{gra.\+h}}
+\subsubsection[{\texorpdfstring{wpisz\+\_\+do\+\_\+wyniki(int l, string nowe)}{wpisz_do_wyniki(int l, string nowe)}}]{\setlength{\rightskip}{0pt plus 5cm}void wpisz\+\_\+do\+\_\+wyniki (
+\begin{DoxyParamCaption}
+\item[{int}]{l, }
+\item[{string}]{nowe}
+\end{DoxyParamCaption}
+)}\hypertarget{gra_8h_ae9feff07994880d9f0164bbad6aff388}{}\label{gra_8h_ae9feff07994880d9f0164bbad6aff388}
+
+
+Wpisywanie do wyników. 
+
+Procedura dopisująca wyniku do pliku \char`\"{}wyniki.\+txt\char`\"{}. 
+\begin{DoxyParams}{Parametry}
+{\em l} & parametr mówiący czy dopisać wygraną(l=1), czy remis(l=0). \\
+\hline
+{\em nowe} & nowa nazwa gracza \\
+\hline
+\end{DoxyParams}
+\index{gra.\+h@{gra.\+h}!wpisz\+\_\+tab@{wpisz\+\_\+tab}}
+\index{wpisz\+\_\+tab@{wpisz\+\_\+tab}!gra.\+h@{gra.\+h}}
+\subsubsection[{\texorpdfstring{wpisz\+\_\+tab(char T[3][3], int n, char znak)}{wpisz_tab(char T[3][3], int n, char znak)}}]{\setlength{\rightskip}{0pt plus 5cm}void wpisz\+\_\+tab (
+\begin{DoxyParamCaption}
+\item[{char}]{T\mbox{[}3\mbox{]}\mbox{[}3\mbox{]}, }
+\item[{int}]{n, }
+\item[{char}]{znak}
+\end{DoxyParamCaption}
+)}\hypertarget{gra_8h_ac74b2e179aafb0d5ace62ae1912cdb70}{}\label{gra_8h_ac74b2e179aafb0d5ace62ae1912cdb70}
+
+
+Wpisywanie ruchu do planszy. 
+
+Procedura wpisująca dany znak do n-\/tego wolnego miejsca na planszy T. 
+\begin{DoxyParams}{Parametry}
+{\em T} & plansza \\
+\hline
+{\em n} & numer ruchu \\
+\hline
+{\em znak} & znak do wpisania \\
+\hline
+\end{DoxyParams}
+\index{gra.\+h@{gra.\+h}!wygrana@{wygrana}}
+\index{wygrana@{wygrana}!gra.\+h@{gra.\+h}}
+\subsubsection[{\texorpdfstring{wygrana(char T[3][3])}{wygrana(char T[3][3])}}]{\setlength{\rightskip}{0pt plus 5cm}int wygrana (
+\begin{DoxyParamCaption}
+\item[{char}]{T\mbox{[}3\mbox{]}\mbox{[}3\mbox{]}}
+\end{DoxyParamCaption}
+)}\hypertarget{gra_8h_a23182285f4fd1e760bdf5d29101488a1}{}\label{gra_8h_a23182285f4fd1e760bdf5d29101488a1}
+
+
+Sprawdzanie sytuacji. 
+
+Funkcja zwracająca w jakiej sytuacji znajduje się plansza. Zwraca 0-\/nieroztrzygnięta 1-\/wygrana kółka 2-\/wygrana krzyżyka 3-\/remis 
+\begin{DoxyParams}{Parametry}
+{\em T} & plansza \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+sytuacja 
+\end{DoxyReturn}
